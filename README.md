@@ -1,0 +1,2 @@
+# BinomialDistributionCoinFlip
+ How are we going to simulate a coin flip? We can’t give the computer a bitcoin and tell it to flip it. Since we are using python, a mathematically focused language, we will use probability. Specifically numpy’s binomial distribution, np.random.binomial(n,p). This is a method in the random class and it takes in the number of trials (n) and the probability of the event occurring (p). Binomial distribution, as its name suggests, can perform a ‘coin flip’ of two events happening. The call returns a 0 or 1 to represent one of the two events.
